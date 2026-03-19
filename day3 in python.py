@@ -21,12 +21,3 @@ s2 = 'gnan'
 print(s1 + s2)
 print(s1 + " " + s2)
 print((s1 + " ") * 5)
-
-
-n = 5
-abscent = 0
-present = 0
-for i in range(1, n+1):
-    val = int(input(f"Enter the roll no {i} attendance 0- absent 1 - present: "))
-
-
